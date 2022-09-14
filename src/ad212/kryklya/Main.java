@@ -18,7 +18,7 @@ public class Main {
             System.out.println("Enter array length no more than 2!");
             number = scanner.nextInt();
             if (number < 2) {
-                System.out.println("The length of the array must be at least 2!");//предупреждение о ошибке
+                System.out.println("The length of the array must be at least 2!"); //предупреждение о ошибке
             }
         } while (number < 2);
 
